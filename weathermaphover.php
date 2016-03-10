@@ -1,13 +1,13 @@
 <?php
 
-// weathermaphoover.php
+// weathermaphover.php
 //
 // Script creates an image/png using GD showing the nagios host state.
 // Very useful in network-weathermap!
 // It fetches the info from status.dat
 //
 // +-------------------------------------------------------------------------+
-// | WeathermapHoover for Nagios v0.7                                        |
+// | Weathermaphover for Nagios v0.7                                        |
 // | by Jan Jaap van Santen                                                  |
 // | github: janjaaps                                                        |
 // | email: github@lebber.net                                                |
@@ -19,7 +19,7 @@
 // +-------------------------------------------------------------------------+
 // | NODE <host>                                                             |
 // |   LABEL <hostlabel>                                                     |
-// |   OVERLIBGRAPH http://srvnagios/nagios/weathermaphoover.php?host=<host> |
+// |   OVERLIBGRAPH http://srvnagios/nagios/weathermaphover.php?host=<host> |
 // +-------------------------------------------------------------------------+
 // | The only setting needed to be made in this file is.                     |
 // | Set this to your status.dat location:                                   |
